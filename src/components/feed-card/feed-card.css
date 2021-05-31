@@ -1,0 +1,27 @@
+.feed-card-container {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 64px;
+    margin-top: 24px;
+    padding: 24px 32px;
+
+    background-color: white;
+}
+
+.repository-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+
+    color: #0064EB;
+    cursor: pointer;
+}
+
+.repository-description {
+    margin-top: 16px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+}

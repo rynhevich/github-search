@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Inter";
+  src: url('https://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZthiI2B.woff2') format('woff2');
+ }
+
+.app-container {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+}
+
+body {
+  background-color:#E5E5E5;
+  margin:0
+}

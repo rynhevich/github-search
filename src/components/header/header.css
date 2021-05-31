@@ -1,0 +1,45 @@
+.header-container {
+    position: relative;
+    left: 0;
+    top: 0;
+
+    height: 72px;
+    width: 100%;
+
+    background-color: #0064EB;
+    background-image: url(../../images/github-logo.png);
+    background-repeat: no-repeat;
+    background-position: 41px 16px;
+}
+
+.header-container input {
+    position: relative;
+    left: 104px;
+    top: 16px;
+
+    padding: 0;
+    border: 0;
+    border-radius: 6px;
+    height: 40px;
+    width: 500px;
+    text-indent: 44px;
+
+    font-size: 14px;
+    line-height: 17px;
+    background-image: url(../../images/search-small.png);
+    background-repeat: no-repeat;
+    background-position: 19px 13px;
+}
+
+@media only screen and (max-width: 800px) {
+    .header-container {
+        background-position: 16px 16px;
+    }
+
+    .header-container input {
+        left: 73px;
+
+        width: calc(100% - 100px);
+        min-width: 200px;
+    }
+}

@@ -1,0 +1,19 @@
+.empty-repository-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+
+    color: #808080;
+    font-size: 22px;
+    line-height: 30.8px;
+    text-align: center;
+}
+
+.empty-repository-list span {
+    margin-top: 48px;
+}
+
+.empty-repository-list img {
+    margin: 0 auto;
+}

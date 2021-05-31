@@ -1,0 +1,70 @@
+.paginate-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #808080;
+}
+
+.paginate {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0;
+    padding-left: 0;
+
+    list-style-type: none;
+}
+
+.paginate-active {
+    padding: 2px 6px !important; 
+    margin-left: 4px;
+    margin-right: 4px;
+
+    background-color: #0064EB;
+    border-radius: 3px;
+
+    color: white;
+}
+
+.paginate-page {
+    text-align: center;
+
+    padding: 2px 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+    cursor: pointer; 
+}
+
+.paginate-previous {
+    padding: 2px 6px;
+    margin-right: 4px;
+
+    cursor: pointer;
+}
+
+.paginate-next {
+    padding: 2px 6px;
+    margin-left: 4px;
+
+    cursor: pointer;
+}
+
+.paginate-break {
+    padding: 2px 6px;
+
+    cursor: pointer;
+}
+
+.paginate-bar-note {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    white-space: nowrap;
+}

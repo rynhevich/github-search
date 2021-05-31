@@ -1,0 +1,42 @@
+.repositories-feed-container {
+    width: 100%;
+    min-width: 280px;
+
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.repositories-feed-paginate {
+    position: relative;
+    float: right;
+
+    margin: 24px;
+}
+
+.repositories-feed-empty-repository-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: calc(100vh - 100px);
+}
+
+.repositories-feed-number {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: 29px;
+    margin-left: 2px;
+}
+
+@media only screen and (max-width: 800px) {
+    .repositories-feed-number {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .repositories-feed-empty-repositoty-list {
+        height: 300px
+    }
+}

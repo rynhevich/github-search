@@ -1,0 +1,19 @@
+.user-not-found-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+
+    color: #808080;
+    font-size: 22px;
+    line-height: 30.8px;
+    text-align: center;
+}
+
+.user-not-found-page span {
+    margin-top: 42px;
+}
+
+.user-not-found-page img {
+    margin: 0 auto;
+}

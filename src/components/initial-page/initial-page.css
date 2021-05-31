@@ -1,0 +1,21 @@
+.initial-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+
+    width: 210px;
+
+    color: #808080;
+    font-size: 22px;
+    line-height: 30.8px;
+    text-align: center;
+}
+
+.initial-page span {
+    margin-top: 46.92px;
+}
+
+.initial-page img {
+    margin: 0 auto;
+}
