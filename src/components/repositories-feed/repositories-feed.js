@@ -21,7 +21,7 @@ const RepositoriesFeed = () => {
     <div className='repositories-feed-container'>
       <div className='repositories-feed-number'>
         <span>Repositories</span>
-        <span>({reposNumber})</span>
+        <span>&nbsp;({reposNumber})&nbsp;</span>
       </div>
       <FeedList />
       <div className='repositories-feed-paginate'>
