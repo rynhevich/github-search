@@ -44,8 +44,8 @@ export default class GithubService {
     });
 
     #transformLargeNumber = (num) => {      
-        if (num >= MILLION) return Math.floor(num / MILLION * TEN) / TEN + 'M';
-        if (num >= THOUSAND) return Math.floor(num / THOUSAND * TEN) / TEN + 'k';
+        if (num >= MILLION) return Math.round(num / MILLION * TEN) / TEN + 'M';
+        if (num >= THOUSAND) return Math.round(num / THOUSAND * TEN) / TEN + 'k';
         return num;
     };
 
