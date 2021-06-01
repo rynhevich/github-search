@@ -28,7 +28,7 @@ const App = () => {
       .then((user) => {
         setUser(user);
         setUserLoading(false);
-        const NumberOfPages = Math.floor(user.reposNumber / MAX_CARDS_ON_PAGE) + 1;
+        const NumberOfPages = Math.ceil(user.reposNumber / MAX_CARDS_ON_PAGE);
         setNumberOfPages(NumberOfPages);
       })
       .then(event.target[0].value = '')
