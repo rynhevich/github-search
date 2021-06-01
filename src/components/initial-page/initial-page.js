@@ -8,7 +8,7 @@ const InitialPage = () => (
   <div className='initial-page-container'>
     <div className='initial-page'>
       <img src={searchBig} alt='magnifier icon' />
-      <span>Start with serching a GitHub user</span>
+      <span>Start with searching a GitHub user</span>
     </div>
   </div>
 );
